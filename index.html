@@ -2,18 +2,23 @@
 
 <head>
 	<title>Popcorn Test</title>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://popcornjs.org/code/dist/popcorn-complete.js"></script>
 </head>
 
 <body>
 
-	<video height="360" width="640" id="video" controls>
-		<source src="noir.mp4">
+	<div id="canvas">
+		<video height="360" width="640" id="video" controls>
 			<source src="noir.webm">
 			</video>
+		</div>
+		<div id="footnote"></div>
+		<button onclick="jumpTo()" id="jump1">JUMP!</button>
+		<div id="webpagediv"></div>
+		
+	</body>
 
-		</body>
+	<script type="text/javascript" src="main.js"></script>
 
-		<script type="text/javascript" src="main.js"></script>
-
-		</html>
+	</html>
