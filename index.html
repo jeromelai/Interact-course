@@ -2,21 +2,32 @@
 
 <head>
 	<title>Popcorn Test</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://popcornjs.org/code/dist/popcorn-complete.js"></script>
 </head>
 
 <body>
 
+
 	<div id="canvas">
-		<video height="360" width="640" id="video" controls>
-			<source src="noir.webm">
+		<video height="480" width="854" id="video" controls>
+			<source src="videos/film.mp4">
 			</video>
 		</div>
-		<div id="footnote"></div>
-		<button onclick="jumpTo()" id="jump1">JUMP!</button>
-		<div id="webpagediv"></div>
-		
+
+		<div id="gif1"><img src="gifs/gif1.gif"></div>
+		<div id="decision1"><img src="images/decision1.jpg" usemap="#decision1map"></div>
+		<map name="decision1map">
+			<area shape="default" href="#" onclick="changeZIndex(0,'canvas'); changeZIndex(-1,'decision1'); changeZIndex(-2,'gif1'); $pop1.play();">
+		</map>
+
+		<div id="gif2"><img src="gifs/gif1.gif"></div>
+		<div id="stats1"><img src="images/decision1.jpg" usemap="#stats1map"></div>
+		<map name="stats1map">
+			<area shape="default" href="#" onclick="changeZIndex(0,'canvas'); changeZIndex(-3,'stats1'); changeZIndex(-4,'gif2'); $pop1.play();">
+		</map>
+
 	</body>
 
 	<script type="text/javascript" src="main.js"></script>

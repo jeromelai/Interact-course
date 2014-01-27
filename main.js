@@ -1,33 +1,28 @@
-var $pop = Popcorn( "#video" );
-
-// first pause
-$pop.cue( 3, function() {
-	$pop.pause();
-});
-
-//listen for timeupdate
-$pop.on( "timeupdate", function( event ) {
-    // if the video is paused
-    if ( this.paused() ) {
-        // add a footnote!
-        this.footnote({
-        	start: $pop.currentTime(),
-        	end: $pop.currentTime() + 1  > $pop.duration() ? $pop.duration() : $pop.currentTime() + 1,
-        	text: "Footnote at " + $pop.currentTime() + " ",
-        	target: "footnote"
-        });
-    }
-});
-// end of list for timeupdate
-
-$pop.webpage({
-	id: "webpages-a",
-	start: 1,
-	end: 5,
-	src: "http://www.google.com/",
-	target: "webpagediv"
-});
+var $pop1 = Popcorn( "#video" );
 
 function jumpTo() {
-	$pop.play(15);
+	$pop1.play(15);
 }
+
+function changeZIndex(i,id) {
+  document.getElementById(id).style.zIndex=i;
+}
+
+$pop1.play();
+
+// pause 1
+$pop1.cue( 56, function() {
+	$pop1.pause();
+	changeZIndex(2, "decision1");
+	changeZIndex(1,'gif1');
+    changeZIndex(0, "canvas");
+});
+
+// pause 2a - have sex
+$pop1.cue( 72, function() {
+	$pop1.pause();
+	changeZIndex(10, "stats1");
+	changeZIndex(3,'gif2');
+    changeZIndex(0, "canvas");
+});
+
