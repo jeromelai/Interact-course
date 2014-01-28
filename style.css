@@ -1,36 +1,142 @@
 #canvas{
-position:absolute;
-left:50px;
-top:50px;
-z-index:0;
+	position:absolute;
+	z-index:0;
 } 
 
 #decision1{
-position:absolute;
-left:50px;
-top:50px;
-opacity:0.5;
-z-index:-1;
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.5;
+	z-index:-1;
 }
 
-#gif1{
-position:absolute;
-left:50px;
-top:50px;
-z-index:-1;
+#d1gif{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	z-index:-1;
+}
+
+#stats1a{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#stats1b{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-2;
+}
+
+#stats1c{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-3;
+}
+
+#s1gif{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	z-index:-1;
+}
+
+#stats2a{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#stats2b{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#s2gif{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	z-index:-1;
 }
 
 #decision2{
-position:absolute;
-left:50px;
-top:50px;
-z-index:-1;
-opacity:0.5;
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity: 0.5;
+	z-index:-1;
 }
 
-#gif2{
-position:absolute;
-left:50px;
-top:50px;
-z-index:-1;
-} 
+#d2gif{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	z-index:-1;
+}
+
+#stats3{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.5;
+	z-index:-1;
+}
+
+#s3gif{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	z-index:-1;
+}
+
+#stats4{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.5;
+	z-index:-1;
+}
+
+#s4gif{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	z-index:-1;
+}
+
+#decision3{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity: 0.5;
+	z-index:-1;
+}
+
+#d3gif{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	z-index:-1;
+}
+
+#stats5{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.5;
+	z-index:-1;
+}
+
+#s5gif{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	z-index:-1;
+}
+
+#stats6{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.5;
+	z-index:-1;
+}
+
+#s6gif{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	z-index:-1;
+}

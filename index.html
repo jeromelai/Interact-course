@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>Popcorn Test</title>
+	<title>Storytelling & Data Visualization Project</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://popcornjs.org/code/dist/popcorn-complete.js"></script>
@@ -9,23 +9,97 @@
 
 <body>
 
-
 	<div id="canvas">
 		<video height="480" width="854" id="video" controls>
 			<source src="videos/film.mp4">
 			</video>
 		</div>
 
-		<div id="gif1"><img src="gifs/gif1.gif"></div>
-		<div id="decision1"><img src="images/decision1.jpg" usemap="#decision1map"></div>
-		<map name="decision1map">
-			<area shape="default" href="#" onclick="changeZIndex(0,'canvas'); changeZIndex(-1,'decision1'); changeZIndex(-2,'gif1'); $pop1.play();">
+		<!-- Decision1 -->
+		<div id="d1gif"><img src="gifs/d1gif.gif"></div>
+		<div id="decision1"><img src="gifs/d1.png" usemap="#d1map"></div>
+		
+		<map name="d1map">
+			<area shape="rect" coords="0,0,427,480" href="#" onclick="$pop1.play(); changeZIndex(-1, 'decision1'); changeZIndex(-2,'d1gif');">
+			<area shape="rect" coords="427,0,854,480" href="#" onclick="$pop1.play(74); changeZIndex(-1,'decision1'); changeZIndex(-2,'d1gif');">
 		</map>
 
-		<div id="gif2"><img src="gifs/gif1.gif"></div>
-		<div id="stats1"><img src="images/decision1.jpg" usemap="#stats1map"></div>
-		<map name="stats1map">
-			<area shape="default" href="#" onclick="changeZIndex(0,'canvas'); changeZIndex(-3,'stats1'); changeZIndex(-4,'gif2'); $pop1.play();">
+		<!-- Stats1 -->
+		<div id="s1gif"><img src="gifs/s1gif.gif"></div>
+		<div id="stats1a"><img src="gifs/s1a.png" usemap="#stats1amap"></div>
+		<div id="stats1b"><img src="gifs/s1b.png" usemap="#stats1bmap"></div>
+		<div id="stats1c"><img src="gifs/s1c.png" usemap="#stats1cmap"></div>
+		
+		<map name="stats1amap">
+			<area shape="rect" coords="651,356,808,428" href="#" onclick="changeZIndex(-2,'stats1a'); changeZIndex(1,'stats1b');">
+		</map>
+		<map name="stats1bmap">
+			<area shape="rect" coords="651,356,808,428" href="#" onclick="changeZIndex(-2,'stats1b'); changeZIndex(1,'stats1c');">
+		</map>
+		<map name="stats1cmap">
+			<area shape="rect" coords="651,356,808,428" href="#" onclick="changeZIndex(-2,'stats1c'); changeZIndex(-1,'s1gif'); $pop1.play(90);">
+		</map>
+
+		<!-- Stats2 -->
+		<div id="s2gif"><img src="gifs/s2gif.gif"></div>
+		<div id="stats2a"><img src="gifs/s2a.png" usemap="#stats2amap"></div>
+		<div id="stats2b"><img src="gifs/s1b.png" usemap="#stats2bmap"></div>
+		
+		<map name="stats2amap">
+			<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats2a'); changeZIndex(1,'stats2b');">
+		</map>
+		<map name="stats2bmap">
+			<area shape="rect" coords="651,356,808,428" href="#" onclick="changeZIndex(-2,'stats2b'); changeZIndex(-1,'s2gif'); $pop1.play(90);">
+		</map>
+
+		<!-- Decision2 -->
+		<div id="d2gif"><img src="gifs/d2gif.gif"></div>
+		<div id="decision2"><img src="gifs/d2.png" usemap="#d2map"></div>
+		
+		<map name="d2map">
+			<area shape="rect" coords="0,0,427,480" href="#" onclick="$pop1.play(); changeZIndex(-1, 'decision2'); changeZIndex(-2,'d2gif');">
+			<area shape="rect" coords="429,0,856,480" href="#" onclick="$pop1.play(147); changeZIndex(-1,'decision2'); changeZIndex(-2,'d2gif');">
+		</map>
+
+		<!-- Stats3 -->
+		<div id="s3gif"><img src="gifs/s3gif.gif"></div>
+		<div id="stats3"><img src="gifs/d1.png" usemap="#stats3map"></div>
+		
+		<map name="stats3map">
+			<area shape="rect" coords="427,0,854,480" href="#" onclick="$pop1.play(155); changeZIndex(-1,'s3gif'); changeZIndex(-2,'stats3');">
+		</map>
+
+		<!-- Stats4 -->
+		<div id="s4gif"><img src="gifs/s4gif.gif"></div>
+		<div id="stats4"><img src="gifs/d1.png" usemap="#stats4map"></div>
+		
+		<map name="stats4map">
+			<area shape="rect" coords="427,0,854,480" href="#" onclick="$pop1.play(155); changeZIndex(-1,'s4gif'); changeZIndex(-2,'stats4');">
+		</map>
+
+		<!-- Decision3 -->
+		<div id="d3gif"><img src="gifs/d3gif.gif"></div>
+		<div id="decision3"><img src="gifs/d1.png" usemap="#d3map"></div>
+		
+		<map name="d3map">
+			<area shape="rect" coords="0,0,427,480" href="#" onclick="$pop1.play(); changeZIndex(-1, 'decision3'); changeZIndex(-2,'d3gif');">
+			<area shape="rect" coords="427,0,854,480" href="#" onclick="$pop1.play(208); changeZIndex(-1,'decision3'); changeZIndex(-2,'d3gif');">
+		</map>
+
+		<!-- Stats5 -->
+		<div id="s5gif"><img src="gifs/s5gif.gif"></div>
+		<div id="stats5"><img src="gifs/d1.png" usemap="#stats5map"></div>
+		
+		<map name="stats5map">
+			<area shape="rect" coords="427,0,854,480" href="#" onclick="$pop1.pause(); changeZIndex(-1,'s5gif'); changeZIndex(-2,'stats5');">
+		</map>
+
+		<!-- Stats6 -->
+		<div id="s6gif"><img src="gifs/s6gif.gif"></div>
+		<div id="stats6"><img src="gifs/d1.png" usemap="#stats6map"></div>
+		
+		<map name="stats6map">
+			<area shape="rect" coords="427,0,854,480" href="#" onclick="$pop1.pause(); changeZIndex(-1,'s6gif'); changeZIndex(-2,'stats6');">
 		</map>
 
 	</body>
