@@ -76,10 +76,31 @@
 	z-index:-1;
 }
 
-#stats3{
+#stats3a{
 	position:absolute;
 	margin: auto, auto, auto, auto ;
-	opacity:0.5;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#stats3b{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#stats3d{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#stats3e{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
 	z-index:-1;
 }
 

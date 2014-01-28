@@ -38,7 +38,7 @@ $pop1.cue( 131, function() {
 // pause s3 - go to school
 $pop1.cue( 145, function() {
 	$pop1.pause();
-	changeZIndex(2, "stats3");
+	changeZIndex(2, "stats3a");
 	changeZIndex(1, "s3gif");
 });
 

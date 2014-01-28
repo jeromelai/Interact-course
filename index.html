@@ -43,13 +43,13 @@
 		<!-- Stats2 -->
 		<div id="s2gif"><img src="gifs/s2gif.gif"></div>
 		<div id="stats2a"><img src="gifs/s2a.png" usemap="#stats2amap"></div>
-		<div id="stats2b"><img src="gifs/s1b.png" usemap="#stats2bmap"></div>
+		<div id="stats2b"><img src="gifs/s2b.png" usemap="#stats2bmap"></div>
 		
 		<map name="stats2amap">
 			<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats2a'); changeZIndex(1,'stats2b');">
 		</map>
 		<map name="stats2bmap">
-			<area shape="rect" coords="651,356,808,428" href="#" onclick="changeZIndex(-2,'stats2b'); changeZIndex(-1,'s2gif'); $pop1.play(90);">
+			<area shape="rect" coords="660,350,815,422" href="#" onclick="changeZIndex(-2,'stats2b'); changeZIndex(-1,'s2gif'); $pop1.play(90);">
 		</map>
 
 		<!-- Decision2 -->
@@ -63,10 +63,22 @@
 
 		<!-- Stats3 -->
 		<div id="s3gif"><img src="gifs/s3gif.gif"></div>
-		<div id="stats3"><img src="gifs/d1.png" usemap="#stats3map"></div>
+		<div id="stats3a"><img src="gifs/s3a.png" usemap="#stats3amap"></div>
+		<div id="stats3b"><img src="gifs/s3b.png" usemap="#stats3bmap"></div>
+		<div id="stats3d"><img src="gifs/s3d.png" usemap="#stats3dmap"></div>
+		<div id="stats3e"><img src="gifs/s3e.png" usemap="#stats3emap"></div>
 		
-		<map name="stats3map">
-			<area shape="rect" coords="427,0,854,480" href="#" onclick="$pop1.play(155); changeZIndex(-1,'s3gif'); changeZIndex(-2,'stats3');">
+		<map name="stats3amap">
+			<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats3a'); changeZIndex(1,'stats3b');">
+		</map>
+		<map name="stats3bmap">
+			<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats3b'); changeZIndex(1,'stats3d');">
+		</map>
+		<map name="stats3dmap">
+			<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats3d'); changeZIndex(1,'stats3e');">
+		</map>
+		<map name="stats3emap">
+			<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats3e'); changeZIndex(-1,'s3gif'); $pop1.play(155);">
 		</map>
 
 		<!-- Stats4 -->
