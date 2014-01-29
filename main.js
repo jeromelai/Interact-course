@@ -1,8 +1,11 @@
-var $pop1 = Popcorn( "#video" );
-
 function changeZIndex(i,id) {
 	document.getElementById(id).style.zIndex=i;
 }
+
+var $pop1 = Popcorn( "#video" );
+
+// hide our controls
+$pop1.controls( false );
 
 // pause d1 - decision1
 $pop1.cue( 55, function() {

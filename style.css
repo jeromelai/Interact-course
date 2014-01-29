@@ -1,323 +1,222 @@
-body{
-  background:url("images/white.jpg") repeat center center fixed; 
+body {
+	background-color: #111111;
+}
+
+div.center {
+    width: 854px;
+    height: 480px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#logo {
+	margin-top: 25px;
+	text-align: center;
 }
 
 #canvas{
 	position:absolute;
 	z-index:0;
-	margin-top: 200px;
-	margin-left: 350px; 
-	margin-right: 350px;
+}
+
+#border{
+	background-color: #ffffff;
+	width: 860px;
+	height: 486px;
+	z-index: -10;
+}
+
+#play {
+	width: 854px;
+    height: 480px;
+	opacity: 0.9;
+	z-index: 3;
 }
 
 #decision1{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.5;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #d1gif{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats1a{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats1b{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-2;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats1c{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-3;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #s1gif{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats2a{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats2b{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #s2gif{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #decision2{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity: 0.5;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #d2gif{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats3a{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats3b{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats3d{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats3e{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #s3gif{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats4a{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats4b{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats4d{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats4e{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 
 #s4gif{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #decision3{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity: 0.5;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #d3gif{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats5a{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats5b{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats5c{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats5d{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #s5gif{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats6a{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats6b{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #stats6c{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	opacity:0.9;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
 
 #s6gif{
 	position:absolute;
-	margin: auto, auto, auto, auto ;
 	z-index:-1;
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-right: 350px;
 }
