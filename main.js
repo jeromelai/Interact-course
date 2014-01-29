@@ -1,7 +1,7 @@
 var $pop1 = Popcorn( "#video" );
 
 function changeZIndex(i,id) {
-  document.getElementById(id).style.zIndex=i;
+	document.getElementById(id).style.zIndex=i;
 }
 
 // $pop1.play();
@@ -45,7 +45,7 @@ $pop1.cue( 145, function() {
 // pause s4 - go to cafe
 $pop1.cue( 153, function() {
 	$pop1.pause();
-	changeZIndex(2, "stats4");
+	changeZIndex(2, "stats4a");
 	changeZIndex(1, "s4gif");
 });
 
@@ -59,13 +59,13 @@ $pop1.cue( 189, function() {
 // pause s5 - cheat
 $pop1.cue( 205, function() {
 	$pop1.pause();
-	changeZIndex(2, "stats5");
+	changeZIndex(2, "stats5a");
 	changeZIndex(1, "s5gif");
 });
 
 // pause s6 - don't cheat
 $pop1.cue( 222, function() {
 	$pop1.pause();
-	changeZIndex(2, "stats6");
+	changeZIndex(2, "stats6a");
 	changeZIndex(1, "s6gif");
 });

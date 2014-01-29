@@ -1,7 +1,7 @@
 #canvas{
 	position:absolute;
 	z-index:0;
-} 
+}
 
 #decision1{
 	position:absolute;
@@ -110,12 +110,34 @@
 	z-index:-1;
 }
 
-#stats4{
+#stats4a{
 	position:absolute;
 	margin: auto, auto, auto, auto ;
-	opacity:0.5;
+	opacity:0.9;
 	z-index:-1;
 }
+
+#stats4b{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#stats4d{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#stats4e{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-1;
+}
+
 
 #s4gif{
 	position:absolute;
@@ -136,10 +158,31 @@
 	z-index:-1;
 }
 
-#stats5{
+#stats5a{
 	position:absolute;
 	margin: auto, auto, auto, auto ;
-	opacity:0.5;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#stats5b{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#stats5c{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#stats5d{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
 	z-index:-1;
 }
 
@@ -149,10 +192,24 @@
 	z-index:-1;
 }
 
-#stats6{
+#stats6a{
 	position:absolute;
 	margin: auto, auto, auto, auto ;
-	opacity:0.5;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#stats6b{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
+	z-index:-1;
+}
+
+#stats6c{
+	position:absolute;
+	margin: auto, auto, auto, auto ;
+	opacity:0.9;
 	z-index:-1;
 }
 
