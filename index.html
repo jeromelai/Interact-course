@@ -12,6 +12,7 @@
 		<div id="canvas">
 			<video height="480" width="854" id="video" controls>
 				<source src="videos/film.mp4">
+					<source src="videos/film.webm">
 				</video>
 			</div>
 
@@ -20,8 +21,8 @@
 			<div id="decision1"><img src="gifs/d1.png" usemap="#d1map"></div>
 
 			<map name="d1map">
-				<area shape="rect" coords="0,0,427,480" href="#" onclick="$pop1.play(); changeZIndex(-1, 'decision1'); changeZIndex(-2,'d1gif');">
-				<area shape="rect" coords="427,0,854,480" href="#" onclick="$pop1.play(74); changeZIndex(-1,'decision1'); changeZIndex(-2,'d1gif');">
+				<area shape="rect" coords="0,0,427,480" href="#" onclick="changeZIndex(-1, 'decision1'); changeZIndex(-2,'d1gif'); $pop1.play();">
+				<area shape="rect" coords="427,0,854,480" href="#" onclick="changeZIndex(-1,'decision1'); changeZIndex(-2,'d1gif'); $pop1.play(68);">
 			</map>
 
 			<!-- Stats1 -->
@@ -37,7 +38,7 @@
 				<area shape="rect" coords="651,356,808,428" href="#" onclick="changeZIndex(-2,'stats1b'); changeZIndex(1,'stats1c');">
 			</map>
 			<map name="stats1cmap">
-				<area shape="rect" coords="651,356,808,428" href="#" onclick="changeZIndex(-2,'stats1c'); changeZIndex(-1,'s1gif'); $pop1.play(90);">
+				<area shape="rect" coords="651,356,808,428" href="#" onclick="changeZIndex(-2,'stats1c'); changeZIndex(-1,'s1gif'); $pop1.play(85);">
 			</map>
 
 			<!-- Stats2 -->
@@ -49,7 +50,7 @@
 				<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats2a'); changeZIndex(1,'stats2b');">
 			</map>
 			<map name="stats2bmap">
-				<area shape="rect" coords="660,350,815,422" href="#" onclick="changeZIndex(-2,'stats2b'); changeZIndex(-1,'s2gif'); $pop1.play(90);">
+				<area shape="rect" coords="660,350,815,422" href="#" onclick="changeZIndex(-2,'stats2b'); changeZIndex(-1,'s2gif'); $pop1.play(85);">
 			</map>
 
 			<!-- Decision2 -->
@@ -58,7 +59,7 @@
 
 			<map name="d2map">
 				<area shape="rect" coords="0,0,427,480" href="#" onclick="$pop1.play(); changeZIndex(-1, 'decision2'); changeZIndex(-2,'d2gif');">
-				<area shape="rect" coords="429,0,856,480" href="#" onclick="$pop1.play(147); changeZIndex(-1,'decision2'); changeZIndex(-2,'d2gif');">
+				<area shape="rect" coords="429,0,856,480" href="#" onclick="$pop1.play(139); changeZIndex(-1,'decision2'); changeZIndex(-2,'d2gif');">
 			</map>
 
 			<!-- Stats3 -->
@@ -78,7 +79,7 @@
 				<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats3d'); changeZIndex(1,'stats3e');">
 			</map>
 			<map name="stats3emap">
-				<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats3e'); changeZIndex(-1,'s3gif'); $pop1.play(155);">
+				<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats3e'); changeZIndex(-1,'s3gif'); $pop1.play(146);">
 			</map>
 
 			<!-- Stats4 -->
@@ -98,7 +99,7 @@
 				<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats4d'); changeZIndex(1,'stats4e');">
 			</map>
 			<map name="stats4emap">
-				<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats4e'); changeZIndex(-1,'s4gif'); $pop1.play(155);">
+				<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats4e'); changeZIndex(-1,'s4gif'); $pop1.play(147);">
 			</map>
 
 			<!-- Decision3 -->
@@ -107,7 +108,7 @@
 
 			<map name="d3map">
 				<area shape="rect" coords="0,0,427,480" href="#" onclick="$pop1.play(); changeZIndex(-1, 'decision3'); changeZIndex(-2,'d3gif');">
-				<area shape="rect" coords="427,0,854,480" href="#" onclick="$pop1.play(208); changeZIndex(-1,'decision3'); changeZIndex(-2,'d3gif');">
+				<area shape="rect" coords="427,0,854,480" href="#" onclick="$pop1.play(192); changeZIndex(-1,'decision3'); changeZIndex(-2,'d3gif');">
 			</map>
 
 			<!-- Stats5 -->
@@ -127,7 +128,7 @@
 				<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats5c'); changeZIndex(1,'stats5d');">
 			</map>
 			<map name="stats5dmap">
-				<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats5d'); changeZIndex(-1,'s5gif'); $pop.pause();">
+				<area shape="rect" coords="685,350,818,422" href="#" onclick="changeZIndex(-2,'stats5d'); changeZIndex(-1,'s5gif'); $pop.play(208);">
 			</map>
 			<!-- NEEDS TO JUMP TO CREDITS -->
 
@@ -144,7 +145,7 @@
 				<area shape="rect" coords="427,0,854,480" href="#" onclick="changeZIndex(-2,'stats6b'); changeZIndex(1,'stats6c');">
 			</map>
 			<map name="stats6cmap">
-				<area shape="rect" coords="427,0,854,480" href="#" onclick="changeZIndex(-2,'stats6c'); changeZIndex(-1,'s6gif'); $pop1.pause();">
+				<area shape="rect" coords="427,0,854,480" href="#" onclick="changeZIndex(-2,'stats6c'); changeZIndex(-1,'s6gif'); $pop1.play(208);">
 			</map>
 
 		</body>
